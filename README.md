@@ -4,7 +4,7 @@
 
 This is the code repo for the paper *Calibration Transfer among Multiple Raman Spectrometers via Low-Rank Adaptation*. a Low-Rank Adaptation-based Calibration Transfer method (LoRA-CT) is proposed to perform parameter-efficient fine-tuning of deep learning models toward new Raman spectrometers with very few samples. When we want to transfer the primary CNN model built with a lot of effort to multiple secondary instruments, we only need to use a small amount of labeled sample data from each secondary instrument to obtain the LoRA module separately and then combine each LoRA module with the primary CNN model separately to achieve the transferred model for multiple secondary instruments.
 
-### Package required: 
+## Package required: 
 We recommend to use [conda](https://conda.io/docs/user-guide/install/download.html).
 - [python3](https://www.python.org/)
 - [pytorch](https://pytorch.org/) 
