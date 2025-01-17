@@ -20,7 +20,7 @@ By using the [`environment.yml`](https://github.com/jiahuilai0220/LoRA-CT/blob/m
 ## Pre-training model paths
 The CNN quantitative models for different datasets are customized and cannot be public for different datasets; this study focuses on the calibration transfer performance of the LoRA-CT method, so the best pre-trained model paths are provided directly in each dataset file.（for example：https://github.com/jiahuilai0220/LoRA-CT/blob/main/Blended-olive-oil/oil-best_model_cnn_x1.pt）
 
-## fine-tuning training
+## Fine-tuning training
 To fine-tune the pre-trained model, we need to prepare the labeled sample data for each secondary instrument. The fine-tuning training can be done by running the `lora-fine-tuning training.ipynb` file in the corresponding dataset folder. 
 
 ## Calibration Transfer
