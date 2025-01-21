@@ -1,4 +1,4 @@
-name: torch
+name: LoRA-CT
 channels:
   - pytorch
   - nvidia
