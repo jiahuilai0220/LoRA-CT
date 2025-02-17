@@ -18,10 +18,10 @@ By using the [`environment.yml`](https://github.com/jiahuilai0220/LoRA-CT/blob/m
 
 
 ## Primary calibration model paths
-The CNN quantitative models for different datasets are customized and cannot be public for different datasets; this study focuses on the calibration transfer performance of the LoRA-CT method, so the best pre-trained model paths are provided directly in each dataset file.（for example：https://github.com/jiahuilai0220/LoRA-CT/blob/main/Blended-olive-oil/oil-best_model_cnn_x1.pt）
+The CNN quantitative models for different datasets are customized and cannot be public for different datasets; this study focuses on the calibration transfer performance of the LoRA-CT method, so the best primary calibration model paths are provided directly in each dataset file.（for example：https://github.com/jiahuilai0220/LoRA-CT/blob/main/Blended-olive-oil/oil-best_model_cnn_x1.pt）
 
 ## Fine-tuning training
-To fine-tune the primary CNN model, we need to prepare the labeled sample data for each secondary spectrometer. The fine-tuning training can be done by running the `lora-fine-tuning training.ipynb` file in the corresponding dataset folder. 
+To fine-tune the primary CNN model, we need to prepare the labeled sample data for each secondary spectrometer. The fine-tuning training can be done by running the `lora-fine-tuning.ipynb` file in the corresponding dataset folder. 
 
 ## Calibration Transfer
 After obtaining LoRA modules, first merge LoRA modules with the primary CNN model and finally test LoRA-CT calibration transfer performance.The calibration transfer can be done by running the `CT-Test.ipynb` file in the corresponding dataset folder. 
