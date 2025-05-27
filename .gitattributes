@@ -1,3 +1,11 @@
+
 *.pt filter=lfs diff=lfs merge=lfs -text
 Ethanol-mixture filter=lfs diff=lfs merge=lfs -text
 Methanol-mixture filter=lfs diff=lfs merge=lfs -text
+
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
